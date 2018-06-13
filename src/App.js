@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1>Hello World</h1>
-      </div>
+      <React.Fragment>
+        <label htmlFor="hoge">bar</label>
+        <input type="radio" id="hoge" onChange={() => { console.log("hoge") }} />
+        <label htmlFor="hoge2">bar</label>
+        <input type="radio" id="hoge2" onChange={() => { console.log("hoge") }} />
+        <label htmlFor="hoge3">bar</label>
+        <input type="text" id="hoge3" onChange={() => { console.log("hoge") }} />
+      </React.Fragment>
     );
   }
 }
