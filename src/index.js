@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { composeWithDevTools } from 'redux-devtools-extension'
-import MuiThemeProvider form 'material-ui/styles/MuiThemeProvider'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
 import './index.css'
 import reducer from './reducers'
